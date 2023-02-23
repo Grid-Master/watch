@@ -1,10 +1,10 @@
-@import url('styles/reset.css');
-@import url('styles/header.css');
-@import url('styles/main.css');
-@import url('styles/models.css');
-@import url('styles/banner.css');
-@import url('styles/news.css');
-@import url('styles/footer.css');
+@import url('reset.css');
+@import url('header.css');
+@import url('main.css');
+@import url('models.css');
+@import url('banner.css');
+@import url('news.css');
+@import url('footer.css');
 
 body {
     font-family: Roboto;
