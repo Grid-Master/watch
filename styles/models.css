@@ -1,0 +1,104 @@
+.models {
+    margin-bottom: 86px;
+}
+
+.models__title {
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.models__more {
+    position: relative;
+    text-align: end;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444240;
+    cursor: pointer;
+}
+
+.models__more::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    width: 101px;
+    border: 1px solid #C4C0B6;
+}
+
+.models__list {
+    margin-top: 37px;
+    display: flex;
+}
+
+.models__list-item {
+    padding: 40px 28px;
+    background-color: #FDFDFB;
+    width: 387px !important;
+}
+
+.models__list-item:not(:last-child) {
+    margin-right: 34px;
+}
+
+.models__list-item h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(27, 26, 23, 0.82);
+    margin-bottom: 10px;
+}
+
+.models__list-item p {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(27, 26, 23, 0.82);
+}
+
+.models__list-item img {
+    background-image: url(../images/ring.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 313px;
+    height: 313px;
+    /* padding-right: 5px; */
+}
+
+.models__list-item span {
+    display: block;
+    position: relative;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1B1A17;
+    padding-left: 48px;
+    cursor: pointer;
+}
+
+
+.models__list-item span::before {
+    content: '';
+    border: 1px solid #8B8371;
+    width: 30px;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    display: inline-block;
+    transform: rotateZ(90);
+}
